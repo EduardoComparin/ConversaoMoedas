@@ -191,8 +191,8 @@
       },
       success: function(response) {
         $('.retorno_msg_cotacao').text(response.success);
-        $('.modal-body').html(response);
-        $('#modalResultado').modal('show');
+       // $('.modal-body').html(response);
+       // $('#modalResultado').modal('show');
       },
       error: function(error) {
         console.log(error);
@@ -269,7 +269,7 @@
             nomeMoedaDestino: nomesMoedas[0],
           };
 
-          //setCamposTemplate(retorno);
+          setCamposTemplate(retorno);
 
           salvaRegistro(retorno);
 
