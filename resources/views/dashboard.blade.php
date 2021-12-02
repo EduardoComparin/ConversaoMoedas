@@ -36,7 +36,7 @@
                     Valor conversão
                   </span>
                 </div>
-                <input autocomplete="off" value='5.000,00' type="text" name="valor" id="valor" class="form-control" placeholder="{{ __('valor...') }}" required>
+                <input autocomplete="off"  type="text" name="valor" id="valor" class="form-control" placeholder="{{ __('valor...') }}" required>
               </div>
               <div class="input-group">
                 <div class="input-group-prepend">
